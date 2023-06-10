@@ -1,0 +1,200 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Reset */
+
+body {
+  font-family: "Poppins", "Trebuchet MS";
+  /*   background-color: #528fbf; */
+}
+
+img {
+  max-width: 100%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+/* Container */
+
+.container {
+  background-color: white;
+  width: 90%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-2 {
+  background-color: #234f72;
+  color: white;
+}
+
+/* Container */
+
+header {
+  background-color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav_list {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.nav_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+#title-main {
+  text-transform: uppercase;
+  color: black;
+  font-size: 2.2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.main-p {
+  font-size: 1.2rem;
+  color: black;
+  padding-top: 1rem;
+}
+
+.susten {
+  margin-right: 2rem;
+  text-align: right;
+  padding-bottom: 2rem;
+}
+
+.confia {
+  margin-left: 2rem;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.nuestros {
+  margin-right: 2rem;
+  text-align: right;
+  padding-bottom: 2rem;
+}
+
+.multi-img {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-bot {
+  text-align: center;
+}
+
+.section-bot,
+mailto {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.button {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/* Footer */
+
+i {
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.legal {
+  margin-left: 2rem;
+}
+
+.title-footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.logos-sm {
+  text-align: right;
+  margin-right: 2rem;
+}
+
+/* Footer */
+
+/*MEDIA QUERIES*/
+
+/* @media (min-width: 768px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: auto;
+    position: relative;
+  }
+  .nav__list {
+    display: flex;
+    margin: 0;
+  }
+
+  .nav__item {
+    margin-left: 1.5rem;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .img-box {
+    margin-top: 0;
+    text-align: right;
+  }
+  .display-2 {
+    font-size: 3.4rem;
+    text-align: left;
+  }
+
+  .display-2--description {
+    font-size: 1rem;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .display-2 {
+    font-size: 4.5rem;
+  }
+  .display-2--description {
+    font-size: 1.4rem;
+  }
+
+  .nav__link--button {
+    display: block;
+  }
+}
+ */
