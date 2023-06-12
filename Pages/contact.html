@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="../imgs/global-network.png"
+      href="/Imgs/global-network.png"
       type="image/x-icon"
     />
+    <!-- Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- Boostrap -->
     <!-- Fontawesome -->
     <link
       rel="stylesheet"
@@ -19,81 +27,181 @@
     />
     <!-- Fontawesome -->
     <!-- CSS Link -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="/CSS/styledefault.css" />
     <!-- CSS Link -->
-    <!-- Google Fonts -->
-
-    <!-- Google Fonts -->
     <title>Contacto</title>
   </head>
   <body>
-    <header>
-      <a href="../index.html">
-        <img src="../imgs/Logo200x211.png" alt="Logo de la empresa" />
-      </a>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="about.html">Quienes Somos</a></li>
-          <li><a href="services.html">Servicios</a></li>
-          <li><a href="gallery.html">Galeria</a></li>
-          <li><a href="contact.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>Contacto</h1>
-      <section>
-        <form action="">
-          <fieldset>
-            <div>
-              <label for="nombre">Nombre:</label>
-              <input type="text" name="nombre" />
+    <div id="grid-container">
+      <!-- Header Inicio -->
+      <header class="header">
+        <a href="/">
+          <img src="/Imgs/logo-test.png" class="logo" alt="Logo" />
+        </a>
+        <nav class="nav-2">
+          <ul class="nav__list-2">
+            <li class="nav__item">
+              <a class="nav__link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">Nosotros</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="services.html">Servicios</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="gallery.html">Galeria</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--active" href="contact.html"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- Nav Final -->
+      </header>
+      <!-- Header Final -->
+      <!-- Main Inicio -->
+      <main class="main">
+        <div class="d-flex justify-content-center align-items-center mt-5 mb-3">
+          <h1>Contacto</h1>
+        </div>
+        <div
+          class="d-flex justify-content-center align-items-center text-muted mb-4"
+        >
+          <h4>
+            Con este formulario puedes ponerte en contacto con nosotros. ¡Te
+            responderemos a la brevedad!
+          </h4>
+        </div>
+        <div class="container">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" />
             </div>
-            <div>
-              <label for="apellido">Apellido:</label>
-              <input type="text" name="apellido" />
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" />
             </div>
-            <div>
-              <label for="Correo Electrónico">Correo Electrónico:</label>
-              <input type="text" name="Correo Electrónico" />
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Dirección</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="Calle falsa 1234"
+              />
             </div>
-
-            <div>Acepta los terminos de condicion</div>
-            <input type="checkbox" name="acepta" value="si" />
-            <div>
-              <label for="Respuesta">Respuesta:</label>
-              <select name="Respuesta" id="Respuesta">
-                <option value="L">Urgente</option>
-                <option value="M">Puedo esperar</option>
-                <option value="S">No responder</option>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Dirección 2</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress2"
+                placeholder="Departamento, Estudio, o Piso"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Provincia</label>
+              <select id="inputState" class="form-select">
+                <option selected>Seleccionar...</option>
+                <option selected>Buenos Aires</option>
+                <option selected>Ciudad Autónoma de Buenos Aires</option>
+                <option selected>Catamarca</option>
+                <option selected>Chaco</option>
+                <option selected>Chubut</option>
+                <option selected>Córdoba</option>
+                <option selected>Corrientes</option>
+                <option selected>Entre Ríos</option>
+                <option selected>Formosa</option>
+                <option selected>Jujuy</option>
+                <option selected>La Pampa</option>
+                <option selected>La Rioja</option>
+                <option selected>Mendoza</option>
+                <option selected>Misiones</option>
+                <option selected>Neuquén</option>
+                <option selected>Río Negro</option>
+                <option selected>Salta</option>
+                <option selected>San Juan</option>
+                <option selected>San Luis</option>
+                <option selected>Santa Cruz</option>
+                <option selected>Santa Fe</option>
+                <option selected>Santiago del Estero</option>
+                <option selected>
+                  Tierra del Fuego, Antártida e Islas del Atlántico Sur
+                </option>
+                <option selected>Tucumán</option>
               </select>
             </div>
-            <div>
-              <label for="mensaje">Mensaje:</label>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Codigo Postal</label>
+              <input type="text" class="form-control" id="inputZip" />
             </div>
-            <div>
-              <textarea
-                name="mensaje"
-                id="mensaje"
-                cols="40"
-                rows="20 "
-              ></textarea>
+            <div class="col-12">
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Información:</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Estoy de acuerdo
+                </label>
+              </div>
             </div>
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Limpiar" />
-          </fieldset>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <span>Legal Privacidad Relaciones Publicas Mapa de Sitio</span>
-      <h2>Encuentranos en las redes:</h2>
-      <div>
-        <a href="http://"><i class="fa-brands fa-square-facebook"></i></a>
-        <a href="http://"><i class="fa-brands fa-square-instagram"></i></a>
-        <a href="http://"><i class="fa-brands fa-square-twitter"></i></a>
-      </div>
-    </footer>
+            <div class="col-12">
+              <button type="submit" class="btn btn-lg btn-outline-info">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </main>
+      <!-- Main Final -->
+      <!-- Footer Inicio -->
+      <footer class="footer">
+        <div class="footer-sm">
+          <div class="row footer-sm__icons">
+            <div class="col">Buscanos en las redes</div>
+            <div class="col">
+              <a href="https://www.facebook.com/" class="socials__link"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="https://twitter.com/" class="socials__link"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/" class="socials__link"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row footer-bottom__copyright">
+            <div class="col">&copy; Copyright 2023 | Para CoderHouse</div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Final -->
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-/* INICIO --- RESET*/
+/* INICIO --- RESET */
 
 * {
   margin: 0;
@@ -30,6 +30,16 @@ img {
   /* height: 100vh; */
 }
 
+.grid-container-2 {
+  max-width: 1080px;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "content-1" "content-2" "content-3";
+  /* height: 100vh; */
+}
+
 /* FIN --- GLOBAL*/
 
 /* INICIO --- HEADER + NAVBAR */
@@ -41,16 +51,16 @@ img {
   box-shadow: 0 1.2rem 1rem rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
-.nav {
+.nav-2 {
   margin-top: 1rem;
   margin-right: 1rem;
   margin-bottom: 1.2rem;
 }
 
-.nav__list {
+.nav__list-2 {
   list-style: none;
   font-size: 1.5rem;
 }
@@ -76,66 +86,12 @@ img {
   grid-area: main;
 }
 
-.main__title {
-  color: #313030;
-  text-align: center;
-  font-size: 52px;
-  font-weight: 450;
-  padding: 1.2rem;
-}
-
-.main__description {
-  color: #828282;
-}
-
-/* INICIO --- CONTENT */
-
-.content_general {
-  margin-top: 24px;
-  margin-bottom: 40px;
-}
-
-.content_1--text {
-  text-align: end;
-}
-
-.content--title {
-  color: #828282;
-  margin: 15px;
-}
-
-.content--description {
-  margin: 15px;
-}
-
-.content_1--img {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.section_bot {
-  color: white;
-  text-align: center;
-  background-color: #c93131;
-  margin-top: 1.5rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.section_bot--title {
-  margin-bottom: 1.2rem;
-}
-
-button {
-  margin: 0.5rem;
-  padding: 1rem;
-}
-
-/*ESTILOS FOOTER*/
+/* INICIO --- FOOTER */
 
 footer {
   grid-area: footer;
   padding-top: 1rem;
+  margin-top: 2rem;
   background-color: black;
 }
 
@@ -176,39 +132,13 @@ footer {
   font-weight: 400;
 }
 
+/* FIN --- FOOTER */
+
+/* INICIO --- QUERIES */
+
 @media (min-width: 1024px) {
   .col {
     width: 100%;
-  }
-  .content_1 {
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  .content_2 {
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  .content_3 {
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  .content_1--img {
-    margin-top: 0;
-    text-align: right;
-  }
-  .content_2--img {
-    margin-top: 0;
-    text-align: left;
-  }
-  .content_3--img {
-    margin-top: 0;
-    text-align: right;
   }
 }
 
@@ -225,11 +155,11 @@ footer {
   .logo {
     padding: 1.2rem;
   }
-  .nav {
+  .nav-2 {
     flex: 1;
     margin-top: 0;
   }
-  .nav__list {
+  .nav__list-2 {
     display: flex;
     justify-content: center;
   }
@@ -263,3 +193,13 @@ footer {
     align-items: center;
   }
 }
+
+/* FIN --- QUERIES */
+
+/* Cambios realizados para bootstrap:
+La navbar queda corrida
+el 
+Clase "nav" paso a ser "nav-2"
+
+
+*/

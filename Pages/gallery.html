@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="../imgs/global-network.png"
+      href="/Imgs/global-network.png"
       type="image/x-icon"
     />
     <!-- Fontawesome -->
@@ -19,36 +19,89 @@
     />
     <!-- Fontawesome -->
     <!-- CSS Link -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="/CSS/styleabout.css" />
     <!-- CSS Link -->
-    <!-- Google Fonts -->
-
-    <!-- Google Fonts -->
     <title>Galeria</title>
   </head>
   <body>
-    <header>
-      <a href="../index.html">
-        <img src="../imgs/Logo200x211.png" alt="Logo de la empresa" />
-      </a>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="about.html">Quienes Somos</a></li>
-          <li><a href="services.html">Servicios</a></li>
-          <li><a href="gallery.html">Galeria</a></li>
-          <li><a href="contact.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <footer>
-      <span>Legal Privacidad Relaciones Publicas Mapa de Sitio</span>
-      <h2>Encuentranos en las redes:</h2>
-      <div>
-        <a href="http://"><i class="fa-brands fa-square-facebook"></i></a>
-        <a href="http://"><i class="fa-brands fa-square-instagram"></i></a>
-        <a href="http://"><i class="fa-brands fa-square-twitter"></i></a>
-      </div>
-    </footer>
+    <div id="grid-container">
+      <!-- Header Inicio -->
+      <header class="header">
+        <a href="/">
+          <img src="/Imgs/logo-test.png" class="logo" alt="Logo" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="about.html">Nosotros</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="services.html">Servicios</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--active" href="gallery.html"
+                >Galeria</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Nav Final -->
+      </header>
+      <!-- Header Final -->
+      <!-- Main Inicio -->
+      <main class="main">
+        <div>
+          <h1>Galeria</h1>
+        </div>
+        <h3>Redes Hogareñas</h3>
+        <img src="/Imgs/gallery/home-net.png" alt="" />
+        <h3>Redes Multipunto</h3>
+        <img src="/Imgs/gallery/multipunto.jpeg" alt="" />
+        <h3>Hotspots</h3>
+        <img src="/Imgs/gallery/hotspots.jpg" alt="" />
+        <h3>Peer to Peer</h3>
+        <img src="/Imgs/gallery/peer-to-peer.jpg" alt="" />
+        <h3>Enterprise</h3>
+        <img src="/Imgs/gallery/enterprise.jpg" alt="" />
+        <h3>Direct</h3>
+        <img src="/Imgs/gallery/direct.jpeg" alt="" />
+        <h3>Racks</h3>
+        <img src="/Imgs/gallery/rack.jpg" alt="" />
+        <h3>Insumos</h3>
+        <img src="/Imgs/gallery/insumos.jpg" alt="" />
+      </main>
+      <!-- Main Final -->
+      <!-- Footer Inicio -->
+      <footer class="footer">
+        <div class="footer-sm">
+          <div class="row footer-sm__icons">
+            <div class="col">Buscanos en las redes</div>
+            <div class="col">
+              <a href="https://www.facebook.com/" class="socials__link"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="https://twitter.com/" class="socials__link"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/" class="socials__link"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row footer-bottom__copyright">
+            <div class="col">&copy; Copyright 2023 | Para CoderHouse</div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Final -->
+    </div>
   </body>
 </html>
