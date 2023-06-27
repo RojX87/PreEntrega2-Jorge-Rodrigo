@@ -1,0 +1,205 @@
+/* INICIO --- RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FIN --- RESET*/
+
+/* INICIO --- GLOBAL*/
+
+body {
+  font-family: "Poppins", "Trebuchet MS";
+  /*   background-color: #234f72; */
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+#grid-container {
+  max-width: 2560px;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "main" "footer";
+  /* height: 100vh; */
+}
+
+.grid-container-2 {
+  max-width: 1080px;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "content-1" "content-2" "content-3";
+  /* height: 100vh; */
+}
+
+/* FIN --- GLOBAL*/
+
+/* INICIO --- HEADER + NAVBAR */
+
+.header {
+  text-align: center;
+  grid-area: header;
+  background-color: white;
+  box-shadow: 0 1.2rem 1rem rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-2 {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.nav__list-2 {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+
+.nav__link--active {
+  color: #333;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  opacity: 0.6;
+}
+
+/* FIN --- HEADER + NAVBAR */
+
+.main {
+  grid-area: main;
+}
+
+/* INICIO --- FOOTER */
+
+footer {
+  grid-area: footer;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  background-color: black;
+}
+
+.footer-sm {
+  background-color: #212121;
+  color: white;
+}
+
+.footer-sm a {
+  color: white;
+}
+
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.footer-sm__icons {
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin: 0 auto;
+}
+
+.socials__link:hover {
+  color: #585858;
+}
+
+.footer-bottom {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer-bottom__copyright {
+  justify-content: center;
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+}
+
+/* FIN --- FOOTER */
+
+/* INICIO --- QUERIES */
+
+@media (min-width: 1024px) {
+  .col {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #grid-container {
+    max-width: 2560px;
+    margin-bottom: 2rem;
+    padding: 15px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    padding: 1.2rem;
+  }
+  .nav-2 {
+    flex: 1;
+    margin-top: 0;
+  }
+  .nav__list-2 {
+    display: flex;
+    justify-content: center;
+  }
+  .nav__item {
+    margin-left: 2rem;
+  }
+  .col {
+    width: 100%;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__description {
+    font-size: 22px;
+    margin-top: 24px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+  }
+  .main_img {
+    align-items: center;
+  }
+}
+
+/* FIN --- QUERIES */
+
+/* Cambios realizados para bootstrap:
+La navbar queda corrida
+el 
+Clase "nav" paso a ser "nav-2"
+
+
+*/
