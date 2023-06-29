@@ -1,0 +1,56 @@
+.main {
+  grid-area: main;
+}
+
+.main__title {
+  color: #313030;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 450;
+  padding: 1.2rem;
+}
+
+.main__description {
+  color: #828282;
+}
+
+.content_general {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.content_1--text {
+  text-align: end;
+}
+
+.content--title {
+  color: #828282;
+  margin: 15px;
+}
+
+.content--description {
+  margin: 15px;
+}
+
+.content_1--img {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.section_bot {
+  color: white;
+  text-align: center;
+  background-color: #c93131;
+  margin-top: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section_bot--title {
+  margin-bottom: 1.2rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 1rem;
+}

@@ -1,0 +1,139 @@
+@media (min-width: 1024px) {
+  .main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .col {
+    width: 100%;
+  }
+  .content_1 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .content_2 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .content_3 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .content_1--img {
+    margin-top: 0;
+    text-align: right;
+  }
+  .content_2--img {
+    margin-top: 0;
+    text-align: left;
+  }
+  .content_3--img {
+    margin-top: 0;
+    text-align: right;
+  }
+
+  /* Main about 1024*/
+
+  .about {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about__content {
+    text-align: end;
+  }
+
+  .about__title {
+    padding-bottom: 1.2rem;
+  }
+
+  /* Main services 1024*/
+
+  .services {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Main gallery 1024*/
+
+  .gallery {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Main gallery 1024*/
+
+  /* Main contact 1024*/
+
+  .contact {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Main contact 1024*/
+}
+
+@media (min-width: 768px) {
+  #grid-container {
+    max-width: 2560px;
+    margin-bottom: 2rem;
+    padding: 15px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    padding: 1.2rem;
+  }
+  .nav {
+    flex: 1;
+    margin-top: 0;
+  }
+  .nav__list {
+    display: flex;
+    justify-content: center;
+  }
+  .nav__item {
+    margin-left: 2rem;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__description {
+    font-size: 22px;
+    margin-top: 24px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+  }
+  .main_img {
+    align-items: center;
+  }
+}

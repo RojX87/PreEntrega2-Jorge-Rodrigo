@@ -1,0 +1,39 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.gallery__content--1 {
+  margin-top: 30px;
+}
+
+.gallery__title {
+  color: #313030;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.gallery__banner {
+  text-align: center;
+}
+
+.gallery__text {
+  padding: 24px 0 12px 0;
+  font-size: 20px;
+}
+
+.gallery__link {
+  text-decoration: none;
+  color: #c93131;
+  padding: 10px 0 7px 0;
+  font-weight: 900;
+}
+
+.gallery__link:hover {
+  text-decoration: underline;
+}
