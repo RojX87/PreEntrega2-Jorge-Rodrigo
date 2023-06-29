@@ -10,13 +10,6 @@
       type="image/x-icon"
     />
     <!-- Boostrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <!-- Boostrap -->
     <!-- Fontawesome -->
     <link
       rel="stylesheet"
@@ -27,7 +20,7 @@
     />
     <!-- Fontawesome -->
     <!-- CSS Link -->
-    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <!-- CSS Link -->
     <title>Contacto</title>
   </head>
@@ -38,8 +31,8 @@
         <a href="../index.html">
           <img src="../img/logo-test.png" class="logo" alt="Logo" />
         </a>
-        <nav class="nav-2">
-          <ul class="nav__list-2">
+        <nav class="nav">
+          <ul class="nav__list">
             <li class="nav__item">
               <a class="nav__link" href="../index.html">Inicio</a>
             </li>
@@ -63,113 +56,27 @@
       </header>
       <!-- Header Final -->
       <!-- Main Inicio -->
-      <main class="main">
-        <div class="d-flex justify-content-center align-items-center mt-5 mb-3">
-          <h1>Contacto</h1>
+      <main class="contact">
+        <div class="contact__content--1">
+          <h1 class="contact__title">Contacto</h1>
         </div>
-        <div
-          class="d-flex justify-content-center align-items-center text-muted mb-4"
-        >
-          <h4>
-            Con este formulario puedes ponerte en contacto con nosotros. ¡Te
-            responderemos a la brevedad!
-          </h4>
-        </div>
-        <div class="container">
-          <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4" />
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Password</label>
-              <input type="password" class="form-control" id="inputPassword4" />
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Dirección</label>
-              <input
-                type="text"
-                class="form-control"
-                id="inputAddress"
-                placeholder="Calle falsa 1234"
-              />
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Dirección 2</label>
-              <input
-                type="text"
-                class="form-control"
-                id="inputAddress2"
-                placeholder="Departamento, Estudio, o Piso"
-              />
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">Ciudad</label>
-              <input type="text" class="form-control" id="inputCity" />
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Provincia</label>
-              <select id="inputState" class="form-select">
-                <option selected>Seleccionar...</option>
-                <option selected>Buenos Aires</option>
-                <option selected>Ciudad Autónoma de Buenos Aires</option>
-                <option selected>Catamarca</option>
-                <option selected>Chaco</option>
-                <option selected>Chubut</option>
-                <option selected>Córdoba</option>
-                <option selected>Corrientes</option>
-                <option selected>Entre Ríos</option>
-                <option selected>Formosa</option>
-                <option selected>Jujuy</option>
-                <option selected>La Pampa</option>
-                <option selected>La Rioja</option>
-                <option selected>Mendoza</option>
-                <option selected>Misiones</option>
-                <option selected>Neuquén</option>
-                <option selected>Río Negro</option>
-                <option selected>Salta</option>
-                <option selected>San Juan</option>
-                <option selected>San Luis</option>
-                <option selected>Santa Cruz</option>
-                <option selected>Santa Fe</option>
-                <option selected>Santiago del Estero</option>
-                <option selected>
-                  Tierra del Fuego, Antártida e Islas del Atlántico Sur
-                </option>
-                <option selected>Tucumán</option>
-              </select>
-            </div>
-            <div class="col-md-2">
-              <label for="inputZip" class="form-label">Codigo Postal</label>
-              <input type="text" class="form-control" id="inputZip" />
-            </div>
-            <div class="col-12">
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Información:</label>
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                ></textarea>
-              </div>
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="gridCheck"
-                />
-                <label class="form-check-label" for="gridCheck">
-                  Estoy de acuerdo
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-lg btn-outline-info">
-                Enviar
-              </button>
-            </div>
-          </form>
-        </div>
+        <form action="">
+          <p>Nombre:</p>
+          <input type="text" class="field" /> <br />
+
+          <p>Correo electrónico:</p>
+          <input type="text" class="field" /> <br />
+
+          <p>Asunto:</p>
+          <input type="text" class="field" /> <br />
+
+          <p>Mensaje:</p>
+          <textarea class="field"></textarea> <br />
+
+          <p class="center-content">
+            <input type="submit" class="btn btn-green" value="Enviar Datos" />
+          </p>
+        </form>
       </main>
       <!-- Main Final -->
       <!-- Footer Inicio -->
