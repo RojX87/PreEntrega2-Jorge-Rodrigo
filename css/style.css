@@ -38,24 +38,20 @@ img {
   margin-right: 1rem;
   margin-bottom: 1.2rem;
 }
-
-.nav__list {
+.nav .nav__list {
   list-style: none;
   font-size: 1.5rem;
 }
-
-.nav__link {
+.nav .nav__list .nav__link {
   text-decoration: none;
   text-transform: uppercase;
   color: #bdbdbd;
 }
-
-.nav__link--active {
+.nav .nav__list .nav__link--active {
   color: #333;
 }
-
-.nav__link:hover,
-.nav__link:focus {
+.nav .nav__list .nav__link:hover,
+.nav .nav__list .nav__link:focus {
   opacity: 0.6;
 }
 
