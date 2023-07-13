@@ -20,20 +20,32 @@
 
 .gallery__banner {
   text-align: center;
+
+  .gallery__text {
+    padding: 24px 0 12px 0;
+    font-size: 20px;
+  }
+
+  .gallery__link {
+    text-decoration: none;
+    color: #c93131;
+    padding: 10px 0 7px 0;
+    font-weight: 900;
+  }
+
+  .gallery__link:hover {
+    text-decoration: underline;
+  }
 }
 
-.gallery__text {
-  padding: 24px 0 12px 0;
-  font-size: 20px;
+.img__right {
+  animation: from-right 1.5s ease;
 }
 
-.gallery__link {
-  text-decoration: none;
-  color: #c93131;
-  padding: 10px 0 7px 0;
-  font-weight: 900;
+.img__left {
+  animation: from-left 1.5s ease;
 }
 
-.gallery__link:hover {
-  text-decoration: underline;
+.img__bot {
+  animation: from-bot 1.5s ease;
 }

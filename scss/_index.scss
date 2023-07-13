@@ -1,40 +1,46 @@
 .main {
   grid-area: main;
+
+  .main__title {
+    color: #313030;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 450;
+    padding: 1.2rem;
+  }
+
+  .main__description {
+    color: #828282;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .main_img {
+    animation: from-top 1.5s ease;
+  }
 }
 
-.main__title {
-  color: #313030;
+.col {
   text-align: center;
-  font-size: 52px;
-  font-weight: 450;
-  padding: 1.2rem;
-}
-
-.main__description {
-  color: #828282;
+  padding: 0.5rem;
 }
 
 .content_general {
-  margin-top: 24px;
-  margin-bottom: 40px;
-}
+  margin-bottom: 0.2rem;
 
-.content_1--text {
-  text-align: end;
-}
+  .content_1--text {
+    /*   text-align: end; */
 
-.content--title {
-  color: #828282;
-  margin: 15px;
-}
-
-.content--description {
-  margin: 15px;
-}
-
-.content_1--img {
-  margin-top: 2rem;
-  text-align: center;
+    .content--title {
+      color: #828282;
+      text-align: center;
+      margin: 15px;
+    }
+    .content--description {
+      margin: 15px;
+      text-align: center;
+    }
+  }
 }
 
 .section_bot {
@@ -44,13 +50,13 @@
   margin-top: 1.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
 
-.section_bot--title {
-  margin-bottom: 1.2rem;
-}
+  .section_bot--title {
+    margin-bottom: 1.2rem;
+  }
 
-button {
-  margin: 0.5rem;
-  padding: 1rem;
+  button {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
 }
