@@ -134,11 +134,6 @@ img {
   /* Main contact 1024*/
 }
 @media (min-width: 768px) {
-  #grid-container {
-    /* max-width: 2560px; */
-    /*     margin-bottom: 2rem; */
-    /*     padding: 15px; */
-  }
   .header {
     display: flex;
     align-items: center;
