@@ -259,8 +259,7 @@ img {
   text-align: center;
   padding: 2rem;
 }
-
-.about__img img {
+.about__img .about__img img {
   max-width: 100%;
 }
 
